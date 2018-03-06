@@ -1,0 +1,13 @@
+<!-- Note cách để hiện thị option trong select -->
+
+<select class="wc-select" name="quanlity" onmousedown="if(this.options.length>8){this.size=8;}"  onchange='this.size=0;' onblur="this.size=0;"> không khả thi:))
+		<!-- <option>Qty</option> -->
+			for($i=1; $i<=30;$i++
+			{
+				echo "<option value='{$i}'>{$i}</option>";
+			}
+						
+	</select>
+
+thêm vào thẻ select để giới hạn option cần hiện thị
+onmousedown="if(this.options.length>8){this.size=8;}"  onchange='this.size=0;' onblur="this.size=0;"

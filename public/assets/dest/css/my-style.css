@@ -1,0 +1,37 @@
+.fixNav{
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 100000000;
+}
+.cart-body{
+	z-index:999;
+}
+.inner-header{
+	background-color: #ffffff
+}
+.inner-title,.beta-breadcrumb, .beta-breadcrumb a{
+	color: black
+}
+.main-menu>ul.l-inline> li> a{
+	color: #fff;
+	padding: 10px 35px
+}
+.single-item-body p{
+	margin-bottom: 17px; 
+}
+.single-item-caption{
+	margin-bottom: 17px; 
+}
+.single-item-header img{
+	width: 260px !important; 
+	height: 210px !important;
+}
+.is-active a{
+	color: #f27500 !important;
+}
+#detail-product .single-item-title{
+	font-size: 2em;
+    font-weight: 400;
+}
